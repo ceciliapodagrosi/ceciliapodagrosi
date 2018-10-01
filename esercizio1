@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport"content="width=device-width,initial-scale=1">
+   </head> 
+  
+   <body onload ="v()">  
+    Hello World!
+     
+    CANTO I
+    [Incomincia la Comedia di Dante Alleghieri di Fiorenza, ne la quale tratta de le pene e punimenti de' vizi e de' meriti e premi de le virtù. Comincia il canto primo de la prima parte la quale si chiama Inferno, nel qual l'auttore fa proemio a tutta l'opera.]
+      Nel mezzo del cammin di nostra vita
+      mi ritrovai per una selva oscura,
+      ché la diritta via era smarrita.
+      Ahi quanto a dir qual era è cosa dura
+      esta selva selvaggia e aspra e forte
+      che nel pensier rinova la paura!
+      Tant' è amara che poco è più morte;
+      ma per trattar del ben ch'i' vi trovai,
+      dirò de l'altre cose ch'i' v'ho scorte.
+      Io non so ben ridir com' i' v'intrai,
+      tant' era pien di sonno a quel punto
+      che la verace via abbandonai.
+
+   </body>
+  
+  <script>
+    function v(){ //we have associated to the body on load. To make it execute the code when the body is loaded
+      //I can I ask how big is the file? I can ask the totalsize of the document
+      //this is the viewport function, I can put in the document a document element; document is the rule the representation of the object in a tree form
+      var w=document.documentElement.clientWidth;// I assign it a variable, associated to the width of the page
+      //we can create a popup alert;
+      var h = document.documentElement.clientWidth;
+      
+      alert("Your viewport is " + w + "x" + h);
+    }
+  </script>
+</html>
